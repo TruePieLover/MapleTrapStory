@@ -1,0 +1,59 @@
+/*  MapleTrapStory
+main_styles.css: Main index.php styles */
+.s1_sideWrapper
+{
+    box-sizing: content-box;
+    width: 500px;
+    height: 100px;
+}
+.sideWrapper 
+{
+    display:flex;
+    flex-flow: column;
+    padding: 40px;
+    
+}
+.sideWrapper img
+{
+    float: left;
+    border-bottom: solid;
+    border-radius: 15px;
+    border-color: rgb(255,0,255);
+}
+._mainWebInfo h1
+{
+    text-shadow: 2px 2px black; 
+    font-size: 15px;
+}
+._mainWebInfo h2
+{
+    text-shadow: 2px 2px black; 
+    font-size: 18px;
+}
+._mainWebInfo h3
+{
+    text-shadow: 2px 2px black; 
+    font-size: 20px;
+}
+
+.mainContent
+{
+    display: block;
+    position: absolute;
+    left: 900px;
+}
+
+.contentWrapper 
+{
+    display: flex;
+    flex-flow: column;
+    background-color: rgb(197, 71, 197);
+    width: 500px;
+    height: 500px;
+    margin: 15px;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Ubuntu';
+    text-shadow: 2px 2px black; 
+    
+}

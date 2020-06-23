@@ -1,0 +1,56 @@
+/* Styles for main Maple Trap Story web page */
+html, body   {
+    text-align: center;
+    background-color: rgb(143, 10, 103);
+
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+
+.customnav 
+{
+    box-sizing: content-box;
+    overflow: hidden;
+    height: 70px;
+    border-color: rgb(250,153,245);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(150, 19, 177);
+}
+._infoWrapper 
+{ 
+    display: flex;
+    flex-flow: row;
+}
+.flexLinkWrapper ul, li, a
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    list-style: none;
+    text-shadow: 2px 2px black;
+    color:white;
+}
+
+.flexLinkWrapper 
+{
+    display: flex;
+    border-bottom: solid;
+    border-color: rgb(250,153,245);
+    border-radius: 15px;
+    
+}
+.flexLinkWrapper a 
+{
+    display: inline-flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.flexLinkWrapper a:hover 
+{
+    color:rgb(250, 153, 245);
+}
+
+.vus
